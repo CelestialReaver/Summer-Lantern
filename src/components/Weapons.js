@@ -53,7 +53,7 @@ function WeaponsMenu() {
 		}
 	}
 
-	for (var i = 0; i < weapons.length; i++) {
+	for (var i = 0; i < weapons.length?; i++) {
 		weaponElements.push(<WeaponListItem key={i} weapon={weapons[i]} />);
 	}
 
