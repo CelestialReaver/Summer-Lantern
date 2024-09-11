@@ -61,7 +61,7 @@ function ItemsMenu() {
     }
   }
 
-	for (var i = 0; i < items.length; i++) {
+	for (var i = 0; i < items?.length; i++) {
 		itemElements.push(<ItemListItem key={i} item={items[i]} />);
 	}
 
