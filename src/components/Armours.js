@@ -123,7 +123,7 @@ function ArmoursMenu() {
   }
 
 
-  for (var i = 0; i < armours.length; i++) {
+  for (var i = 0; i < armours.length?; i++) {
     armourElements.push(<ArmourListItem key={i} armour={armours[i]} />);
   }
 
